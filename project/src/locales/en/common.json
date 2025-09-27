@@ -1,0 +1,169 @@
+{
+  "brand": "Prestige Fleet",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "fleet": "Fleet",
+    "contact": "Contact"
+  },
+  "cta": {
+    "getQuote": "Get a Quote",
+    "seeFleet": "See Our Fleet",
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "whatsapp": "WhatsApp",
+    "backToTop": "Back to Top"
+  },
+  "hero": {
+    "title": "Arrive in Comfort. Explore with Confidence.",
+    "subtitle": "Premium touristic transport across Morocco. Private transfers, city tours and tailor-made trips with our luxury fleet.",
+    "description": "Discover Morocco in style with our premium transport services. From Marrakech to the Sahara dunes, we offer comfort, safety and authenticity."
+  },
+  "services": {
+    "title": "Our premium services",
+    "subtitle": "Tailored transport solutions for all your needs",
+    "airport": {
+      "title": "Airport Transfers",
+      "description": "Premium shuttle service to and from Marrakech airport with personalized welcome"
+    },
+    "cityTours": {
+      "title": "City Tours",
+      "description": "Explore Marrakech and its hidden treasures with our experienced guides"
+    },
+    "intercity": {
+      "title": "Intercity Rides",
+      "description": "Travel comfortably between Morocco's major cities"
+    },
+    "desert": {
+      "title": "Desert Excursions",
+      "description": "Unforgettable adventures in the Sahara with luxury accommodation"
+    },
+    "corporate": {
+      "title": "Corporate Travel",
+      "description": "Professional transport solutions for your business events"
+    },
+    "custom": {
+      "title": "Custom Itineraries",
+      "description": "Personalized routes according to your wishes and budget"
+    }
+  },
+  "fleet": {
+    "title": "Our premium fleet",
+    "subtitle": "High-end vehicles for your comfort",
+    "vclass": {
+      "name": "Mercedes V-Class",
+      "passengers": "7 passengers",
+      "features": "Air Conditioning • WiFi • Complimentary Water • XL Luggage"
+    },
+    "eclass": {
+      "name": "Mercedes E-Class",
+      "passengers": "4 passengers",
+      "features": "Premium Leather • GPS • Air Conditioning • Luxury Comfort"
+    },
+    "prado": {
+      "name": "Toyota Prado",
+      "passengers": "7 passengers",
+      "features": "4x4 • Perfect for Desert • Air Conditioning • Robust"
+    },
+    "sprinter": {
+      "name": "Mercedes Sprinter",
+      "passengers": "16 passengers",
+      "features": "Groups • Air Conditioning • WiFi • Great Comfort"
+    }
+  },
+  "testimonials": {
+    "title": "What Clients Say",
+    "subtitle": "Reviews from our satisfied customers",
+    "client1": {
+      "name": "Marie Dubois",
+      "country": "France",
+      "text": "Exceptional service! Perfect transfer from airport and fantastic city tour. Very professional driver."
+    },
+    "client2": {
+      "name": "James Wilson",
+      "country": "UK",
+      "text": "Amazing desert trip! The vehicle was comfortable and the driver knew all the best spots. Highly recommended."
+    },
+    "client3": {
+      "name": "Sofia Martinez",
+      "country": "Spain",
+      "text": "Perfect transport for our group. Punctual, comfortable and very competitive price. Thank you Prestige Fleet!"
+    },
+    "client4": {
+      "name": "Ahmed Hassan",
+      "country": "Morocco",
+      "text": "Excellent service for our business guests. Luxurious vehicles and very courteous drivers. Quality service."
+    },
+    "client5": {
+      "name": "Emma Thompson",
+      "country": "Canada",
+      "text": "Wonderful experience exploring Morocco with Prestige Fleet. Professional, safe, and authentic. Will book again!"
+    },
+    "client6": {
+      "name": "Luigi Rossi",
+      "country": "Italy",
+      "text": "Impeccable service from first to last day. Knowledgeable drivers and luxury vehicles. Highly recommend!"
+    }
+  },
+  "stats": {
+    "cities": "10+ cities served",
+    "reviews": "1k+ 5-star reviews",
+    "onTime": "98% on time",
+    "experience": "15+ years experience"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Request your personalized quote",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "service": "Service Type",
+      "departure": "Departure Location",
+      "destination": "Destination",
+      "datetime": "Date and Time",
+      "passengers": "Number of Passengers",
+      "message": "Message (optional)",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Request sent successfully! We will contact you shortly.",
+      "error": "Error sending request. Please try again."
+    },
+    "whatsappMessage": "Hello Prestige Fleet, I would like to get a quote for:"
+  },
+  "footer": {
+    "description": "Premium touristic transport in Morocco. Transfers, tours and tailor-made trips with our luxury fleet.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "address": "Marrakech, Morocco",
+    "email": "contact@prestigefleet.ma",
+    "phone": "+212 6 93 67 66 42",
+    "hours": "24/7 Available",
+    "social": "Social Media",
+    "rights": "All rights reserved"
+  },
+  "seo": {
+    "home": {
+      "title": "Prestige Fleet - Premium Transport Marrakech | Transfers & Tours Morocco",
+      "description": "Luxury tourist transport in Morocco. Airport transfers, city tours, desert circuits with premium fleet. 5-star service in Marrakech."
+    },
+    "about": {
+      "title": "About - Prestige Fleet | Expert Tourist Transport Morocco",
+      "description": "Discover Prestige Fleet, leader in premium transport in Morocco for 15 years. Luxury fleet, professional drivers, exceptional service."
+    },
+    "services": {
+      "title": "Premium Services - Transfers, Tours & Circuits | Prestige Fleet Morocco",
+      "description": "Premium transport services in Morocco: airport transfers, city tours, desert excursions, corporate transport. Free quote."
+    },
+    "fleet": {
+      "title": "Premium Fleet - Mercedes, Toyota | Prestige Fleet Marrakech",
+      "description": "Discover our premium vehicle fleet: Mercedes V-Class, E-Class, Toyota Prado, Sprinter. Comfort and luxury guaranteed in Morocco."
+    },
+    "contact": {
+      "title": "Contact & Quote - Prestige Fleet Marrakech | Premium Transport Morocco",
+      "description": "Contact Prestige Fleet for your premium transport in Morocco. Free quote, 24/7 service. WhatsApp, email, phone available."
+    }
+  }
+}
