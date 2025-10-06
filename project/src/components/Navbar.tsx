@@ -42,10 +42,12 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="p-2 bg-gradient-to-br from-amber-400 to-orange-500 rounded-lg group-hover:scale-105 transition-transform">
-              <Car className="h-6 w-6 text-white" />
+            <div className="p-2 rounded-lg group-hover:scale-105 transition-transform shadow-md">
+              <img src="/images/logo.png" alt="Logo" className="h-6 w-6" />
             </div>
-            <span className="text-xl font-bold text-slate-800">
+            <span className={`text-xl font-bold transition-colors ${
+              isScrolled ? 'text-slate-800' : 'text-white'
+            }`}>
               {t('brand')}
             </span>
           </Link>
@@ -59,7 +61,7 @@ const Navbar: React.FC = () => {
                 className={`relative px-3 py-2 text-sm font-medium transition-colors hover:text-orange-600 ${
                   location.pathname === link.path
                     ? 'text-orange-600'
-                    : isScrolled ? 'text-slate-700' : 'text-slate-800'
+                    : isScrolled ? 'text-slate-700' : 'text-white'
                 }`}
               >
                 {link.label}
@@ -88,7 +90,7 @@ const Navbar: React.FC = () => {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className={`p-2 rounded-md transition-colors ${
-                isScrolled ? 'text-slate-700' : 'text-slate-800'
+                isScrolled ? 'text-slate-700' : 'text-white'
               }`}
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}

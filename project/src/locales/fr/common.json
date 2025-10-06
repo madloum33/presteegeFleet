@@ -57,19 +57,19 @@
       "passengers": "7 passagers",
       "features": "Climatisation • WiFi • Eau offerte • Bagages XL"
     },
-    "vclass2": {
-      "name": "Mercedes V-Class Executive",
-      "passengers": "7 passagers",
+    "sprinter": {
+      "name": "Mercedes Sprinter",
+      "passengers": "17 passagers",
       "features": "Climatisation • WiFi • Eau offerte • Bagages XL"
     },
-    "eclass": {
+    "jeep": {
       "name": "Jeep Grand Cherokee Luxury",
-      "passengers": "5 passagers",
+      "passengers": "4 passagers",
       "features": "4x4 • GPS • Climatisation • Confort premium"
     },
     "prado": {
       "name": "Toyota Prado 4x4",
-      "passengers": "7 passagers",
+      "passengers": "4 passagers",
       "features": "4x4 • Parfait désert • Climatisation • Robuste"
     }
   },

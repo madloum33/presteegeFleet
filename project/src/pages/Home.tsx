@@ -74,17 +74,17 @@ const Home: React.FC = () => {
       <HeroSlider />
 
       {/* Services Section */}
-      <section className="py-20 bg-stone-50">
+      <section className="py-24 bg-gradient-to-br from-slate-50 via-orange-50/30 to-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
               {t('services.title')}
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               {t('services.subtitle')}
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <ServiceCard
@@ -101,24 +101,45 @@ const Home: React.FC = () => {
       </section>
 
       {/* Fleet Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 bg-slate-900 text-white relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10"
+          style={{
+            backgroundImage: 'url(/images/IMG-20250823-WA0012.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+          }}
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
               {t('fleet.title')}
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="text-xl text-orange-100 max-w-3xl mx-auto">
               {t('fleet.subtitle')}
             </p>
           </div>
-          
+
           <FleetCarousel />
+
+          <div className="text-center mt-12">
+            <a
+              href="/fleet"
+              className="inline-flex items-center px-8 py-4 bg-orange-600 hover:bg-orange-700 text-white font-semibold rounded-xl transition-all duration-200 hover:scale-105 hover:shadow-xl"
+            >
+              {i18n.language === 'fr' ? 'Découvrir toute la flotte' : 'Discover Full Fleet'}
+            </a>
+          </div>
         </div>
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-gradient-to-br from-orange-600 to-orange-700 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-gradient-to-br from-orange-600 via-orange-700 to-orange-800 text-white relative">
+        <div className="absolute inset-0 opacity-10"
+          style={{
+            background: 'repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,0.03) 10px, rgba(255,255,255,0.03) 20px)'
+          }}
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Stats />
         </div>
       </section>

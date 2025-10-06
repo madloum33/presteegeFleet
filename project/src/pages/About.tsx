@@ -100,8 +100,8 @@ const About: React.FC = () => {
                 </h2>
                 <p className="text-lg text-slate-600 leading-relaxed mb-8">
                   {i18n.language === 'fr'
-                    ? "Depuis plus de 15 ans, Prestige Fleet s'est imposé comme le leader du transport touristique premium au Maroc. Née de la passion de faire découvrir les merveilles de notre pays dans les meilleures conditions, notre entreprise a su allier tradition marocaine et standards internationaux."
-                    : "For over 15 years, Prestige Fleet has established itself as the leader in premium tourist transport in Morocco. Born from the passion to showcase the wonders of our country in the best conditions, our company has successfully combined Moroccan tradition with international standards."
+                    ? "Depuis plus de 5 ans, Prestige Fleet s'est imposé comme le leader du transport touristique premium au Maroc. Née de la passion de faire découvrir les merveilles de notre pays dans les meilleures conditions, notre entreprise a su allier tradition marocaine et standards internationaux."
+                    : "For over 5 years, Prestige Fleet has established itself as the leader in premium tourist transport in Morocco. Born from the passion to showcase the wonders of our country in the best conditions, our company has successfully combined Moroccan tradition with international standards."
                   }
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
@@ -167,7 +167,7 @@ const About: React.FC = () => {
                   : 'A team of passionate professionals dedicated to your satisfaction'}
               </p>
             </div>
-            
+            {/*  
             <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               {[
                 {
@@ -211,6 +211,8 @@ const About: React.FC = () => {
                 </motion.div>
               ))}
             </div>
+            */}
+            
           </div>
         </section>
       </div>
