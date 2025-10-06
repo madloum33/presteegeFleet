@@ -22,7 +22,7 @@ const FleetCarousel: React.FC = () => {
       nameKey: 'fleet.vclass.name',
       passengersKey: 'fleet.vclass.passengers',
       featuresKey: 'fleet.vclass.features',
-      image: 'https://images.pexels.com/photos/3800461/pexels-photo-3800461.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: '/images/IMG-20250823-WA0002.jpg',
       price: '150€/day',
     },
     {
@@ -30,24 +30,24 @@ const FleetCarousel: React.FC = () => {
       nameKey: 'fleet.eclass.name',
       passengersKey: 'fleet.eclass.passengers',
       featuresKey: 'fleet.eclass.features',
-      image: 'https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      price: '120€/day',
+      image: '/images/IMG-20250823-WA0004.jpg',
+      price: '140€/day',
     },
     {
       id: 'prado',
       nameKey: 'fleet.prado.name',
       passengersKey: 'fleet.prado.passengers',
       featuresKey: 'fleet.prado.features',
-      image: 'https://images.pexels.com/photos/1805053/pexels-photo-1805053.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: '/images/IMG-20250823-WA0006.jpg',
       price: '180€/day',
     },
     {
-      id: 'sprinter',
-      nameKey: 'fleet.sprinter.name',
-      passengersKey: 'fleet.sprinter.passengers',
-      featuresKey: 'fleet.sprinter.features',
-      image: 'https://images.pexels.com/photos/3806259/pexels-photo-3806259.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      price: '200€/day',
+      id: 'vclass2',
+      nameKey: 'fleet.vclass2.name',
+      passengersKey: 'fleet.vclass2.passengers',
+      featuresKey: 'fleet.vclass2.features',
+      image: '/images/IMG-20250823-WA0016.jpg',
+      price: '160€/day',
     },
   ];
 
@@ -122,9 +122,7 @@ const FleetCarousel: React.FC = () => {
                           </span>
                           <span className="text-slate-500 ml-2">starting</span>
                         </div>
-                        <button className="bg-gradient-to-r from-orange-600 to-orange-700 text-white px-6 py-3 rounded-full font-medium hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
-                          {t('cta.bookNow')}
-                        </button>
+                      
                       </div>
                     </motion.div>
                   </div>

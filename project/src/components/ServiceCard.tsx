@@ -54,11 +54,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
           {t(descriptionKey)}
         </p>
         
-        {/* CTA */}
-        <button className="flex items-center space-x-2 text-orange-600 font-medium hover:text-orange-700 group-hover:translate-x-1 transition-all duration-200">
-          <span>{t('cta.learnMore')}</span>
-          <ArrowRight className="h-4 w-4" />
-        </button>
+       
       </div>
 
       {/* Decorative elements */}

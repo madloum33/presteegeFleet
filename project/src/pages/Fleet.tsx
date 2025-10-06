@@ -21,11 +21,11 @@ const Fleet: React.FC = () => {
       name: t('fleet.vclass.name'),
       passengers: t('fleet.vclass.passengers'),
       features: t('fleet.vclass.features'),
-      image: 'https://images.pexels.com/photos/3800461/pexels-photo-3800461.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: '/images/IMG-20250823-WA0002.jpg',
       price: '150€/day',
       description: i18n.language === 'fr'
-        ? 'Le Mercedes V-Class allie luxe et polyvalence. Parfait pour les familles et groupes, il offre un espace généreux et tout le confort premium Mercedes.'
-        : 'The Mercedes V-Class combines luxury and versatility. Perfect for families and groups, it offers generous space and all the premium Mercedes comfort.',
+        ? 'Le Mercedes V-Class VIP offre un transport de luxe pour les familles et groupes exigeants. Avec son intérieur raffiné et ses équipements haut de gamme, il garantit un voyage confortable à travers le Maroc.'
+        : 'The Mercedes V-Class VIP provides luxury transportation for discerning families and groups. With its refined interior and premium amenities, it ensures a comfortable journey across Morocco.',
       specs: [
         { icon: <Users className="h-5 w-5" />, label: '7 passengers', value: '7' },
         { icon: <Luggage className="h-5 w-5" />, label: 'Large luggage capacity', value: 'XL' },
@@ -38,16 +38,16 @@ const Fleet: React.FC = () => {
       name: t('fleet.eclass.name'),
       passengers: t('fleet.eclass.passengers'),
       features: t('fleet.eclass.features'),
-      image: 'https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      price: '120€/day',
+      image: '/images/IMG-20250823-WA0004.jpg',
+      price: '140€/day',
       description: i18n.language === 'fr'
-        ? 'La Mercedes E-Class représente l\'élégance et le raffinement. Idéale pour les transferts business et les occasions spéciales.'
-        : 'The Mercedes E-Class represents elegance and refinement. Ideal for business transfers and special occasions.',
+        ? 'La Jeep Grand Cherokee Luxury incarne l\'élégance et la puissance. Parfaite pour explorer les routes marocaines, elle combine confort urbain et capacités tout-terrain exceptionnelles.'
+        : 'The Jeep Grand Cherokee Luxury embodies elegance and power. Perfect for exploring Moroccan roads, it combines urban comfort with exceptional off-road capabilities.',
       specs: [
-        { icon: <Users className="h-5 w-5" />, label: '4 passengers', value: '4' },
-        { icon: <Fuel className="h-5 w-5" />, label: 'Fuel efficient', value: 'Yes' },
+        { icon: <Users className="h-5 w-5" />, label: '5 passengers', value: '5' },
+        { icon: <Shield className="h-5 w-5" />, label: '4x4 capability', value: 'Yes' },
         { icon: <Snowflake className="h-5 w-5" />, label: 'Air conditioning', value: 'Yes' },
-        { icon: <Shield className="h-5 w-5" />, label: 'Safety systems', value: 'Advanced' },
+        { icon: <Fuel className="h-5 w-5" />, label: 'Premium comfort', value: 'Yes' },
       ],
     },
     {
@@ -55,11 +55,11 @@ const Fleet: React.FC = () => {
       name: t('fleet.prado.name'),
       passengers: t('fleet.prado.passengers'),
       features: t('fleet.prado.features'),
-      image: 'https://images.pexels.com/photos/1805053/pexels-photo-1805053.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: '/images/IMG-20250823-WA0006.jpg',
       price: '180€/day',
       description: i18n.language === 'fr'
-        ? 'Le Toyota Prado est le véhicule parfait pour les excursions dans le désert et les terrains difficiles, sans compromis sur le confort.'
-        : 'The Toyota Prado is the perfect vehicle for desert excursions and difficult terrain, without compromising on comfort.',
+        ? 'Le Toyota Prado 4x4 est votre compagnon idéal pour les aventures sahariennes. Robuste et confortable, il vous emmène partout au Maroc, des dunes du désert aux montagnes de l\'Atlas.'
+        : 'The Toyota Prado 4x4 is your ideal companion for Saharan adventures. Robust and comfortable, it takes you everywhere in Morocco, from desert dunes to Atlas mountains.',
       specs: [
         { icon: <Users className="h-5 w-5" />, label: '7 passengers', value: '7' },
         { icon: <Shield className="h-5 w-5" />, label: '4x4 capability', value: 'Yes' },
@@ -68,20 +68,20 @@ const Fleet: React.FC = () => {
       ],
     },
     {
-      id: 'sprinter',
-      name: t('fleet.sprinter.name'),
-      passengers: t('fleet.sprinter.passengers'),
-      features: t('fleet.sprinter.features'),
-      image: 'https://images.pexels.com/photos/3806259/pexels-photo-3806259.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      price: '200€/day',
+      id: 'vclass2',
+      name: t('fleet.vclass2.name'),
+      passengers: t('fleet.vclass2.passengers'),
+      features: t('fleet.vclass2.features'),
+      image: '/images/IMG-20250823-WA0016.jpg',
+      price: '160€/day',
       description: i18n.language === 'fr'
-        ? 'Le Mercedes Sprinter est idéal pour les grands groupes. Transport confortable et spacieux pour jusqu\'à 16 passagers.'
-        : 'The Mercedes Sprinter is ideal for large groups. Comfortable and spacious transport for up to 16 passengers.',
+        ? 'Le Mercedes V-Class Executive offre un confort supérieur pour vos déplacements professionnels. Idéal pour les transferts corporate et les voyages d\'affaires avec un espace de travail intégré.'
+        : 'The Mercedes V-Class Executive offers superior comfort for your business travels. Ideal for corporate transfers and business trips with integrated workspace.',
       specs: [
-        { icon: <Users className="h-5 w-5" />, label: '16 passengers', value: '16' },
+        { icon: <Users className="h-5 w-5" />, label: '7 passengers', value: '7' },
+        { icon: <Luggage className="h-5 w-5" />, label: 'Large luggage capacity', value: 'XL' },
         { icon: <Snowflake className="h-5 w-5" />, label: 'Air conditioning', value: 'Yes' },
         { icon: <Wifi className="h-5 w-5" />, label: 'WiFi', value: 'Yes' },
-        { icon: <Luggage className="h-5 w-5" />, label: 'Storage', value: 'Abundant' },
       ],
     },
   ];
@@ -103,7 +103,7 @@ const Fleet: React.FC = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center"
             style={{ 
-              backgroundImage: 'url(https://images.pexels.com/photos/3800461/pexels-photo-3800461.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)',
+              backgroundImage: 'url(/images/IMG-20250823-WA0014.jpg)',
             }}
           />
           <div className="absolute inset-0 bg-slate-900/60" />
@@ -201,9 +201,7 @@ const Fleet: React.FC = () => {
                         ))}
                       </div>
 
-                      <button className="w-full lg:w-auto bg-gradient-to-r from-orange-600 to-orange-700 text-white px-8 py-4 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
-                        {t('cta.bookNow')}
-                      </button>
+                  
                     </div>
                   </div>
                 </motion.div>

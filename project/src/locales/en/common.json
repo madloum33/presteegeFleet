@@ -53,24 +53,24 @@
     "title": "Our premium fleet",
     "subtitle": "High-end vehicles for your comfort",
     "vclass": {
-      "name": "Mercedes V-Class",
+      "name": "Mercedes V-Class VIP",
+      "passengers": "7 passengers",
+      "features": "Air Conditioning • WiFi • Complimentary Water • XL Luggage"
+    },
+    "vclass2": {
+      "name": "Mercedes V-Class Executive",
       "passengers": "7 passengers",
       "features": "Air Conditioning • WiFi • Complimentary Water • XL Luggage"
     },
     "eclass": {
-      "name": "Mercedes E-Class",
-      "passengers": "4 passengers",
-      "features": "Premium Leather • GPS • Air Conditioning • Luxury Comfort"
+      "name": "Jeep Grand Cherokee Luxury",
+      "passengers": "5 passengers",
+      "features": "4x4 • GPS • Air Conditioning • Premium Comfort"
     },
     "prado": {
-      "name": "Toyota Prado",
+      "name": "Toyota Prado 4x4",
       "passengers": "7 passengers",
       "features": "4x4 • Perfect for Desert • Air Conditioning • Robust"
-    },
-    "sprinter": {
-      "name": "Mercedes Sprinter",
-      "passengers": "16 passengers",
-      "features": "Groups • Air Conditioning • WiFi • Great Comfort"
     }
   },
   "testimonials": {
@@ -159,7 +159,7 @@
     },
     "fleet": {
       "title": "Premium Fleet - Mercedes, Toyota | Prestige Fleet Marrakech",
-      "description": "Discover our premium vehicle fleet: Mercedes V-Class, E-Class, Toyota Prado, Sprinter. Comfort and luxury guaranteed in Morocco."
+      "description": "Discover our premium vehicle fleet: Mercedes V-Class VIP, Mercedes V-Class Executive, Jeep Grand Cherokee Luxury, Toyota Prado 4x4. Comfort and luxury guaranteed in Morocco."
     },
     "contact": {
       "title": "Contact & Quote - Prestige Fleet Marrakech | Premium Transport Morocco",

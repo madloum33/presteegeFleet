@@ -53,24 +53,24 @@
     "title": "Notre flotte premium",
     "subtitle": "Véhicules haut de gamme pour votre confort",
     "vclass": {
-      "name": "Mercedes V-Class",
+      "name": "Mercedes V-Class VIP",
+      "passengers": "7 passagers",
+      "features": "Climatisation • WiFi • Eau offerte • Bagages XL"
+    },
+    "vclass2": {
+      "name": "Mercedes V-Class Executive",
       "passengers": "7 passagers",
       "features": "Climatisation • WiFi • Eau offerte • Bagages XL"
     },
     "eclass": {
-      "name": "Mercedes E-Class",
-      "passengers": "4 passagers",
-      "features": "Cuir premium • GPS • Climatisation • Confort luxe"
+      "name": "Jeep Grand Cherokee Luxury",
+      "passengers": "5 passagers",
+      "features": "4x4 • GPS • Climatisation • Confort premium"
     },
     "prado": {
-      "name": "Toyota Prado",
+      "name": "Toyota Prado 4x4",
       "passengers": "7 passagers",
       "features": "4x4 • Parfait désert • Climatisation • Robuste"
-    },
-    "sprinter": {
-      "name": "Mercedes Sprinter",
-      "passengers": "16 passagers",
-      "features": "Groupes • Climatisation • WiFi • Grand confort"
     }
   },
   "testimonials": {
@@ -159,7 +159,7 @@
     },
     "fleet": {
       "title": "Flotte Premium - Mercedes, Toyota | Prestige Fleet Marrakech",
-      "description": "Découvrez notre flotte de véhicules premium : Mercedes V-Class, E-Class, Toyota Prado, Sprinter. Confort et luxe garantis au Maroc."
+      "description": "Découvrez notre flotte de véhicules premium : Mercedes V-Class VIP, Mercedes V-Class Executive, Jeep Grand Cherokee Luxury, Toyota Prado 4x4. Confort et luxe garantis au Maroc."
     },
     "contact": {
       "title": "Contact & Devis - Prestige Fleet Marrakech | Transport Premium Maroc",
