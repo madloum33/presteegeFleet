@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="p-2 bg-gradient-to-br from-amber-400 to-orange-500 rounded-lg group-hover:scale-105 transition-transform">
-              <Car className="h-6 w-6 text-white" />
+              <img src="/images/logo.png" alt="Logo" className="h-6 w-6 text-white" />
             </div>
             <span className={`text-xl font-bold transition-colors ${
               isScrolled ? 'text-slate-800' : 'text-white'
